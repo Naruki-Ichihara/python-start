@@ -2,7 +2,7 @@ version: '3.9'
 services:
   pytop:
     restart: always
-    image: python:3.14-rc-alpine3.21
+    image: ubuntu/python
     container_name: 'python-container'
     working_dir: '/home/usr/mounted/'
     tty: true
