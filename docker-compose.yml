@@ -2,7 +2,7 @@ version: '3.9'
 services:
   pytop:
     restart: always
-    image: ubuntu/python
+    image: ichiharanaruki/pytop:latest
     container_name: 'python-container'
     working_dir: '/home/usr/mounted/'
     tty: true
